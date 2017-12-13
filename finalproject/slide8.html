@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Love Yourself</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="slide8.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <ul class = "navbar-fixed-top nav">
+          <li class="li_nav"><a href="index.html">Home</a></li>
+          <li class="li_nav"><a href="slide2.html">Mission</a></li>
+          <li class="li_nav"><a href="slide3.html">Reason</a></li>
+          <li class="li_nav"><a href="slide4.html">Spotlight</a></li>
+          <li class="li_nav"><a href="slide5.html">Quote</a></li>
+          <li class="li_nav"><a href="slide6.html">BDD</a></li>
+          <li class="li_nav"><a href="slide7.html">Tips</a></li>
+          <li class="li_nav"><a href="slide8.html">Camera</a></li>
+          <li class="li_nav"><a href="slide9.html">Sources</a></li>
+          <li class="li_nav"><a href="slide10.html">About</a></li>
+
+        </ul>
+
+        <div id="fullpage">
+          <div class="section">
+            <h1> Camera </h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3> Click the buttons to take pictures with different filters! </h3>
+            <h3>Press the "s" key to save your picture!</h3>
+          </div>
+          <div class="section">
+            <iframe src="https://alpha.editor.p5js.org/full/rk9Wyj_O-" style="width: 700px; height: 500px;"></iframe>
+            </div>
+          <div class="section">
+            <img src = "media/1.png" width= 350px height= 300px>
+            <img src = "media/3.png" width= 350px height= 300px>
+          </div>
+        </div>
+
+
+
+
+    <a href="slide7.html" class="left">
+      <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </button>
+    </a>
+    <a href="slide9.html" class="right">
+      <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </button>
+    </a>
+
+    <!--Script to link jquery.fullPage.js-->
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <!--Script for fullpage.js-->
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('#fullpage').fullpage({
+              bigSectionsDestination: top,
+              controlArrows: false,
+              anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+        </script>
+
+  </body>
+</html>

@@ -1,0 +1,103 @@
+body {
+  background-color: #c5b5e1 !important;
+}
+
+.right {
+  float: right;
+  left: 90%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed !important;
+	margin-left: -26.8px;
+}
+.left {
+  float: left;
+  right: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed !important;
+}
+
+h1, h2 {
+  color: #241f26 !important;
+}
+
+h1 {
+  font-family: 'Cardo';
+  font-size: 95px;
+  text-align: center;
+  margin: 4%;
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  text-align: center;
+  font-size: 35px;
+  margin: 4%;
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 0.5;
+  }
+
+.thumbnail {
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand{
+  color: white;
+}
+
+#fullpage{
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}
+
+#sources {
+  margin-top: 10%;
+}

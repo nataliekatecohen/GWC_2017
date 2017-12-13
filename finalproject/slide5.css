@@ -1,0 +1,84 @@
+body{
+  background-image: url("http://68.media.tumblr.com/tumblr_luqb7i868x1qzbl1no1_1280.gif");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.right {
+  float: right;
+  left: 90%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+	margin-left: -26.8px;
+}
+
+.left {
+  float: left;
+  right: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+
+h1 {
+  font-family: 'Josefin Sans' !important;
+  text-align: center;
+  color: #292828 !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 95px !important;
+  width: 70% !important;
+  letter-spacing:
+}
+
+h2 {
+  position: absolute;
+  font-family: 'Josefin Sans' !important;
+  top: 50%;
+  left: 50%;
+  font-size: 90px !important;
+  margin-top: 15% !important;
+}
+
+h1, h2 {
+  color: white !important;
+  letter-spacing: 3px;
+  text-shadow: 4px 4px #7b54a8;
+}
+
+.nav {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav {
+  float: left;
+}
+
+.li_nav a {
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand {
+  color: white;
+}

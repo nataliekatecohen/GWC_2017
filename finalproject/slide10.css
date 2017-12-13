@@ -1,0 +1,122 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+.left {
+  float: left;
+  right:90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+
+h1 {
+  font-family: 'Cardo';
+  font-size: 95px;
+  margin-top: 55px;
+}
+
+h3 {
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Cardo';
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Josefin Sans';
+  font-size: 25px;
+  margin: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin: 20px;
+}
+
+.kyla {
+  float: left;
+}
+
+.natalie {
+  float: left;
+}
+
+.drisha {
+  float: right;
+}
+
+.mari {
+  float: right;
+}
+
+.kylahead, .nataliehead {
+  margin-left: 25px;
+}
+
+.marihead {
+  margin-left: 620px;
+}
+
+.drishahead {
+  margin-left: 785px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1, h2, h3, p {
+  color: #241f26;
+}
+
+
+a {
+  color: gray;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand{
+  color: white;
+}
+
+.fullpage{
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}

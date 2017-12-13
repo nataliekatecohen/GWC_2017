@@ -1,0 +1,105 @@
+!<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="slide6.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Love Yourself - BDD</title>
+  </head>
+
+  <body>
+    <ul class = "navbar-fixed-top nav">
+      <li class="li_nav"><a href="index.html">Home</a></li>
+      <li class="li_nav"><a href="slide2.html">Mission</a></li>
+      <li class="li_nav"><a href="slide3.html">Reason</a></li>
+      <li class="li_nav"><a href="slide4.html">Spotlight</a></li>
+      <li class="li_nav"><a href="slide5.html">Quote</a></li>
+      <li class="li_nav"><a href="slide6.html">BDD</a></li>
+      <li class="li_nav"><a href="slide7.html">Tips</a></li>
+      <li class="li_nav"><a href="slide8.html">Camera</a></li>
+      <li class="li_nav"><a href="slide9.html">Sources</a></li>
+      <li class="li_nav"><a href="slide10.html">About</a></li>
+    </ul>
+
+<div id="fullpage">
+  <div class="section">
+    <h1>Body Dysmorphic Disorder (BDD)</h1>
+    <img src="https://www.healthyplace.com/images/stories/ocd/b-1-what-body-dysmorphic-healthyplace.jpg" alt="bdd_home" style="width:650px;height:300px;">
+  </div>
+
+  <div class="section">
+    <p>Body image disorder is characterized by persistent and intrusive preoccupations with an imagined or slight defect in one's appearance. The flaw is usually insignificant but those who suffer from BDD view their flaws as significant and prominent, often causing severe emotional distress and difficulties in daily functioning.<br><br>BDD mostly develops in adolescents and teens. Research shows that it affects men and women almost equally. About one percent of the U.S. population has BDD.<br><br> It is important to note that not everyone who deals with body image issues suffers from a mental disorder. Please keep this mind as you read the rest of this page.</p>
+  </div>
+
+  <div class="section">
+    <h3>Causes</h3>
+      <p>The causes for body dysmorphic disorder include:</p>
+        <div class="list">
+          <li>Genetic predisposition</li>
+          <li>Neurobiological factors (ex. malfunctioning of  serotonin in the brain)</li>
+          <li>Personality traits</li>
+          <li>Life experiences</li>
+        </div>
+      <img src="media/BDD.jpg" style="width:250px;height:250px;">
+  </div>
+
+  <div class="section">
+    <h3>Symptoms</h3>
+    <div class="list">
+      <li>Camouflaging (with body position, clothing, makeup, hair, hats, etc.)</li>
+      <li>Comparing body part to others' appearance</li>
+      <li>Seeking surgery</li>
+      <li>Checking in a mirror</li>
+      <li>Avoiding mirrors</li>
+      <li>Skin picking</li>
+      <li>Excessive grooming</li>
+      <li>Excessive exercises</li>
+      <li>Changing clothes excessively</li>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Treatment</h3>
+      <p>Treatment varies depending on the patient. It is important to talk to a doctor or a medical professional in order to determine which form of treatment is best.<br><br>Some  forms of treatment include:</p>
+      <div class="list">
+        <li>Cognitive Behavioral Therapy (CBT) - teaches patients to recognize negative thoughts and negative thinking patterns and replace them with positive ones</li>
+        <li>Medications</li>
+        <li>Hospitalization</li>
+      </div>
+  </div>
+
+</div>
+
+<a href="slide5.html" class = "left">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  </button>
+</a>
+
+<a href="slide7.html" class="right">
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </button>
+</a>
+
+
+  <!--Script to link jquery.fullPage.js-->
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          bigSectionsDestination: top,
+          controlArrows: false,
+          anchors:['header', 'slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6']});});
+    </script>
+
+
+  </body>
+</html>

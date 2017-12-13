@@ -1,0 +1,67 @@
+.right {
+  float: right;
+  left: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed !important;
+  margin-left: -26.8px;
+}
+
+body{
+  background-color: #c5b5e1 !important;
+}
+h1 {
+  font-family: 'Cardo';
+  text-align: center;
+  color: #292828 !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  font-size: 95px;
+}
+.sub {
+  margin-top: 30% !important;
+  font-size: 75px;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: #818D92;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+
+#brand{
+  color: white;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 500px;
+   margin-top: -220px; /* Half the height */
+   margin-left: -250px;
+}

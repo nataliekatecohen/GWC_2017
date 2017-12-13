@@ -1,0 +1,104 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+h1, p{
+  color: #292828 !important;
+}
+
+h1 {
+  font-family: 'Cardo'!important;
+  font-size: 95px !important;
+  text-align: center !important;
+  margin-top: 6% !important;
+}
+
+p{
+  font-family: 'Josefin Sans';
+  font-size: 26px;
+  text-align: center;
+  margin-top: -2% !important;
+  margin-left: 15% !important;
+  margin-right: 20% !important;
+  width: 70% !important;
+  margin-bottom: 2% !important;
+}
+
+#demi,#demi2017{
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+
+}
+
+#lastdemi {
+  display:block;
+  margin-top: 5% !important;
+}
+
+#sonny, #camprock, #pp {
+  margin: auto;
+  margin-top: 2%;
+  display:block;
+  padding-left: 30px;
+  margin-left: 99%;
+
+}
+
+#video {
+  display:block;
+  margin: 0 auto;
+}
+.right {
+  float: right;
+  left: 90%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+	margin-left: -26.8px;
+}
+.left {
+  float: left;
+  right: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand{
+  color: white;
+}
+
+ iframe{
+     margin: 0 auto;
+     display: block;
+}

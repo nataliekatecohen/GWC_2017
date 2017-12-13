@@ -1,0 +1,213 @@
+body {
+  background-color: #c5b5e1 !important;
+}
+
+
+
+@media only screen and (min-width:0px) {
+
+  .right {
+    float: right;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    position: fixed;
+    margin-left: -26.8px;
+  }
+
+  .left {
+    float: left;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    position: fixed;
+  }
+
+  h1, h3, p, li, ul {
+    color: #292828 !important;
+  }
+
+  h1 {
+    font-family: 'Cardo';
+    font-size: 300%;
+    text-align: center;
+    margin: 20%;
+  }
+
+  h3 {
+    font-family: 'Cardo';
+    font-size: 250%;
+    text-align: center;
+    margin: 2%;
+  }
+
+  p {
+    font-family: 'Josefin Sans';
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .list {
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+    text-align: center;
+    margin: 2%;
+  }
+  .nav {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #4B3B40;
+  }
+
+  .li_nav {
+    float: left;
+  }
+
+  .li_nav a {
+    font-family: 'Cardo';
+    font-size: 15px;
+    display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  .li_nav a:hover:not(.active) {
+      background-color: #111;
+      color: white;
+  }
+
+  #brand {
+    color: white;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width:650px;
+    height:300px
+  }
+
+  #fullpage {
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+  }
+
+}
+
+}
+@media only screen and (min-width:576px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:992px) {
+
+}
+
+@media only screen and (min-width:1366px) {
+
+  .right {
+    float: right;
+    left: 90%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    position: fixed;
+  	margin-left: -26.8px;
+  }
+
+  .left {
+    float: left;
+    right: 90%;
+  	top: 50%;
+  	height: 0;
+  	width: 0;
+  	position: fixed;
+  }
+
+  h1, h3, p, li, ul {
+    color: #292828 !important;
+  }
+
+  h1 {
+    font-family: 'Cardo';
+    font-size: 95px;
+    text-align: center;
+    margin: 25px;
+  }
+
+  h3 {
+    font-family: 'Cardo';
+    font-size: 75px;
+    text-align: center;
+    margin: 2%;
+  }
+
+  p {
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .list {
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+    text-align: center;
+    margin: 2%;
+  }
+
+  .nav {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #4B3B40;
+  }
+
+  .li_nav {
+    float: left;
+  }
+
+  .li_nav a {
+    font-family: 'Cardo';
+    font-size: 15px;
+    display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  .li_nav a:hover:not(.active) {
+      background-color: #111;
+      color: white;
+  }
+
+  #brand {
+    color: white;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width:650px;
+    height:300px
+  }
+
+  #fullpage {
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+  }
+
+}

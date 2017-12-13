@@ -1,0 +1,90 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 30px;
+}
+h3 {
+  font-family: 'Cardo' !important ;
+  font-size: 60px;
+}
+
+h3, p{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  color: #292828 !important;
+}
+p {
+  font-family: 'Josefin Sans' !important ;
+  font-size: 26px;
+  width: 75%;
+  margin-left: 12%;
+}
+
+h1 {
+  font-family: 'Cardo' !important;
+  font-size: 95px !important;
+  text-align: center !important;
+  margin-top: -2% !important;
+}
+.right {
+  float: right;
+  left: 90%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed;
+  margin-left: -26.8px;
+}
+.left {
+  float: left;
+  right: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand{
+  color: white;
+}
+#main {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 30px;
+
+}

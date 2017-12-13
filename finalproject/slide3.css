@@ -1,0 +1,119 @@
+body{
+  background-color: #c5b5e1 !important;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.left {
+  float: left;
+  right: 90%;
+	top: 50%;
+	height: 0;
+	width: 0;
+	position: fixed;
+}
+.right {
+  float: right;
+  left: 90%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  position: fixed !important;
+	margin-left: -26.8px;
+}
+
+h1, p{
+    color: #292828 !important;
+}
+
+h1 {
+
+  font-family: 'Cardo' !important;
+  font-size: 95px !important;
+  text-align: center !important;
+  margin-top: 6% !important;
+}
+
+p {
+  font-family: 'Josefin Sans';
+  font-size: 26px;
+  text-align: center;
+  margin-top: 5% !important;
+  margin-left: 22% !important;
+  margin-right: 20% !important;
+  width: 55%
+}
+
+img {
+  margin-top: 4% !important;
+  display: block;
+  width: 40% !important;
+}
+
+#pic,#open{
+  display: block;
+  margin:auto;
+}
+
+#pic {
+  margin-top: 5% !important;
+  width: 350px !important;
+  height: 350px !important;
+}
+
+#rant {
+  margin-top: 3% ;
+  display: block;
+  width: 350px !important;
+  height: 350px !important;
+  margin:auto;
+
+}
+
+#tie {
+  display: block;
+  margin-top: 3% !important;
+  width: 350px;
+  height: 300px;
+  margin:auto;
+}
+
+#open {
+  margin-top: 3% !important;
+  width: 350px !important;
+  height: 350px !important;
+}
+
+.nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B3B40;
+}
+
+.li_nav{
+  float: left;
+}
+
+.li_nav a{
+  font-family: 'Cardo';
+  font-size: 15px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li_nav a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+#brand{
+  color: white;
+}
